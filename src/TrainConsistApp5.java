@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class TrainConsistApp {
+public class TrainConsistApp5 {
 
     public static void main(String[] args) {
 
