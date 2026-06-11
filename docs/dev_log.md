@@ -14,3 +14,10 @@ Today, we focused on setting up the foundation of the Train Consist Management a
 Extended the base bogie design to support specialized behaviors:
 - **UC5**: Introduced `PassengerBogie` and `GoodsBogie` subclasses extending the base `Bogie` class.
 - **UC6**: Implemented polymorphism by overriding `toString()` and custom display methods, allowing the train consist to render different bogie types dynamically.
+
+## June 11, 2026: Bogie Specialization & Capacity Tracking (UC7 - UC9)
+
+Designed specific bogie categories and tracking mechanisms:
+- **UC7**: Created passenger subclasses (`Sleeper`, `ACChair`, `FirstClass`).
+- **UC8**: Created goods subclasses (`Rectangular`, `Cylindrical`).
+- **UC9**: Implemented capacity tracking to manage and monitor seats/cargo volume within each bogie.
