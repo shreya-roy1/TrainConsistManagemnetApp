@@ -21,3 +21,10 @@ Designed specific bogie categories and tracking mechanisms:
 - **UC7**: Created passenger subclasses (`Sleeper`, `ACChair`, `FirstClass`).
 - **UC8**: Created goods subclasses (`Rectangular`, `Cylindrical`).
 - **UC9**: Implemented capacity tracking to manage and monitor seats/cargo volume within each bogie.
+
+## June 12, 2026: Constraints, Checked Exceptions & Validations (UC10 - UC14)
+
+Focused on application robustness and input integrity:
+- **UC10 & UC11**: Added cargo assignment to goods bogies with strict safety constraints (e.g., hazardous cargo rules).
+- **UC12**: Introduced checked exception handling for data verification.
+- **UC13 & UC14**: Implemented strict validation logic in constructors to prevent the instantiation of invalid bogie objects.
