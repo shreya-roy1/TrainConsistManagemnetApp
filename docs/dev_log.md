@@ -28,3 +28,10 @@ Focused on application robustness and input integrity:
 - **UC10 & UC11**: Added cargo assignment to goods bogies with strict safety constraints (e.g., hazardous cargo rules).
 - **UC12**: Introduced checked exception handling for data verification.
 - **UC13 & UC14**: Implemented strict validation logic in constructors to prevent the instantiation of invalid bogie objects.
+
+## June 13, 2026: Runtime Exceptions & Sorting (UC15 - UC17)
+
+Refined exception strategies and implemented sorting algorithms:
+- **UC15**: Created custom runtime exception `CargoSafetyException` to handle unsafe operations dynamically.
+- **UC16**: Implemented a manual Bubble Sort algorithm to sort passenger bogies by capacity.
+- **UC17**: Used `Arrays.sort()` with custom sorters (`BogieNameSorter`, `PassengerBogieSorter`) for optimized sorting.
