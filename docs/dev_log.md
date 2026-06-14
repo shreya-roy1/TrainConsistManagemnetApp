@@ -35,3 +35,10 @@ Refined exception strategies and implemented sorting algorithms:
 - **UC15**: Created custom runtime exception `CargoSafetyException` to handle unsafe operations dynamically.
 - **UC16**: Implemented a manual Bubble Sort algorithm to sort passenger bogies by capacity.
 - **UC17**: Used `Arrays.sort()` with custom sorters (`BogieNameSorter`, `PassengerBogieSorter`) for optimized sorting.
+
+## June 14, 2026: Searching Algorithms & Fail-Fast Design (UC18 - UC20)
+
+Completed search functionality and defensive programming design:
+- **UC18**: Implemented Linear Search for unsorted consist retrieval.
+- **UC19**: Implemented Binary Search on sorted bogie lists.
+- **UC20**: Configured fail-fast exception handling (`IllegalStateException`) to prevent searches on empty or uninitialized consist data.
