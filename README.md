@@ -43,15 +43,11 @@ Each use case builds on the previous one, evolving the system from **basic desig
 ### 🔹 UC4 – Encapsulation
 - Apply getters/setters for data protection  
 
----
-
 ### 🔹 UC5 – Inheritance
 - Create hierarchy between general and specific bogies  
 
 ### 🔹 UC6 – Polymorphism
 - Implement method overriding for dynamic behavior  
-
----
 
 ### 🔹 UC7 – Passenger Bogie Types
 - Sleeper  
@@ -62,8 +58,6 @@ Each use case builds on the previous one, evolving the system from **basic desig
 - Rectangular  
 - Cylindrical  
 
----
-
 ### 🔹 UC9 – Capacity Tracking
 - Manage seating and cargo capacity  
 
@@ -72,8 +66,6 @@ Each use case builds on the previous one, evolving the system from **basic desig
 
 ### 🔹 UC11 – Safety Constraints
 - Enforce safe cargo rules  
-
----
 
 ### 🔹 UC12 – Checked Exception Handling
 - Validate inputs during object creation  
@@ -84,13 +76,9 @@ Each use case builds on the previous one, evolving the system from **basic desig
 ### 🔹 UC14 – Strict Object Validation
 - Prevent invalid object creation using exceptions  
 
----
-
 ### 🔹 UC15 – Runtime Safety (try-catch-finally)
 - Custom Runtime Exception (`CargoSafetyException`)  
 - Graceful handling of unsafe cargo assignment  
-
----
 
 ### 🔹 UC16 – Bubble Sort (Manual Sorting)
 - Sort passenger capacities using nested loops  
@@ -100,8 +88,6 @@ Each use case builds on the previous one, evolving the system from **basic desig
 - Sort bogie names using built-in method  
 - Demonstrates O(n log n) performance  
 
----
-
 ### 🔹 UC18 – Linear Search
 - Search bogie ID in unsorted array  
 - Sequential traversal (O(n))  
@@ -109,8 +95,6 @@ Each use case builds on the previous one, evolving the system from **basic desig
 ### 🔹 UC19 – Binary Search
 - Efficient search on sorted data  
 - Divide-and-conquer approach (O(log n))  
-
----
 
 ### 🔹 UC20 – Fail-Fast Exception Handling
 - Prevent search on empty data  
