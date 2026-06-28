@@ -42,3 +42,10 @@ Completed search functionality and defensive programming design:
 - **UC18**: Implemented Linear Search for unsorted consist retrieval.
 - **UC19**: Implemented Binary Search on sorted bogie lists.
 - **UC20**: Configured fail-fast exception handling (`IllegalStateException`) to prevent searches on empty or uninitialized consist data.
+
+## June 28, 2026: System Architecture & Relationships (Part 1)
+
+Documented the core relationships between entities:
+- **Engine**: Acts as the head of the train consist, validating capacity and maximum weight limits.
+- **Train**: Orchestrates the list of bogies and handles search/sort delegations.
+- **Bogie**: Base abstract class containing core identification and safety properties.
