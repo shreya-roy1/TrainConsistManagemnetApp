@@ -55,3 +55,10 @@ Documented the core relationships between entities:
 Refined documenting how custom runtime exceptions propagate through the system:
 - When hazardous cargo is assigned to a standard `GoodsBogie`, a `CargoSafetyException` is thrown.
 - The `Train` class handles these exceptions to prevent unsafe departures.
+
+## June 28, 2026: Unit Testing Strategy (Part 3)
+
+Outlined key test scenarios for verifying code correctness:
+- Test boundary conditions for passenger capacities.
+- Validate that search operations fail fast on uninitialized data.
+- Ensure sorting methods sort correctly under random orderings.
