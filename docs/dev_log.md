@@ -49,3 +49,9 @@ Documented the core relationships between entities:
 - **Engine**: Acts as the head of the train consist, validating capacity and maximum weight limits.
 - **Train**: Orchestrates the list of bogies and handles search/sort delegations.
 - **Bogie**: Base abstract class containing core identification and safety properties.
+
+## June 28, 2026: Exception Flow & Cargo Safety Rules (Part 2)
+
+Refined documenting how custom runtime exceptions propagate through the system:
+- When hazardous cargo is assigned to a standard `GoodsBogie`, a `CargoSafetyException` is thrown.
+- The `Train` class handles these exceptions to prevent unsafe departures.
