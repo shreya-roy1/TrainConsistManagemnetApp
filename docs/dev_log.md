@@ -62,3 +62,9 @@ Outlined key test scenarios for verifying code correctness:
 - Test boundary conditions for passenger capacities.
 - Validate that search operations fail fast on uninitialized data.
 - Ensure sorting methods sort correctly under random orderings.
+
+## June 29, 2026: Performance Testing Scenarios & Metrics (Part 1)
+
+Documented the performance assessment plan for the train consist sorting operations:
+- **Baseline metrics**: Establish latency baselines for Bubble Sort on various consist sizes (10, 50, 100 bogies).
+- **Scale analysis**: Assess memory utilization under heavy bogie configurations to avoid memory leaks.
