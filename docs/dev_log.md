@@ -68,3 +68,9 @@ Outlined key test scenarios for verifying code correctness:
 Documented the performance assessment plan for the train consist sorting operations:
 - **Baseline metrics**: Establish latency baselines for Bubble Sort on various consist sizes (10, 50, 100 bogies).
 - **Scale analysis**: Assess memory utilization under heavy bogie configurations to avoid memory leaks.
+
+## June 29, 2026: Code Review Checklist & Best Practices (Part 2)
+
+Established a checklist for reviewing code additions:
+- **Naming Conventions**: Bogie identifiers must follow strict format rules.
+- **Defensive Design**: All public API methods in sorting and searching classes must check for null values or empty states before execution.
