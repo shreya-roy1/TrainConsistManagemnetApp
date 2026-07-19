@@ -1,7 +1,16 @@
 class PassengerBogieSorter {
 
-    // Bubble Sort Method
+    /**
+     * Sorts the passenger capacities array using the Bubble Sort algorithm.
+     * Includes null check optimization and handles edge cases gracefully.
+     *
+     * @param capacities Array of passenger capacities to be sorted.
+     */
     public static void bubbleSort(int[] capacities) {
+        if (capacities == null || capacities.length <= 1) {
+            return; // Already sorted or nothing to sort
+        }
+
         int n = capacities.length;
 
         for (int i = 0; i < n - 1; i++) {
@@ -23,10 +32,22 @@ class PassengerBogieSorter {
         }
     }
 
-    // Utility method to print array
+    /**
+     * Utility method to print the capacities array.
+     * Handles null values gracefully.
+     *
+     * @param capacities Array of passenger capacities to print.
+     */
     public static void printArray(int[] capacities) {
-        for (int cap : capacities) {
-            System.out.print(cap + " ");
+        if (capacities == null) {
+            System.out.println("[]");
+            return;
+        }
+        for (int i = 0; i < capacities.length; i++) {
+            System.out.print(capacities[i]);
+            if (i < capacities.length - 1) {
+                System.out.print(" ");
+            }
         }
         System.out.println();
     }
